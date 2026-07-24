@@ -8,7 +8,7 @@ Du langage à l'infrastructure : un écosystème cohérent, MIT, testé, sans bo
 
 <br/>
 
-![Paquets](https://img.shields.io/badge/paquets-25-FF4D2E?style=flat-square)
+![Paquets](https://img.shields.io/badge/paquets-29-FF4D2E?style=flat-square)
 ![Langage](https://img.shields.io/badge/langage-Nolc-111?style=flat-square)
 ![Licence](https://img.shields.io/badge/licence-MIT-green?style=flat-square)
 ![CI](https://img.shields.io/badge/CI-verte-2ea44f?style=flat-square)
@@ -79,6 +79,15 @@ Des bibliothèques **pures Nolc**, sans dépendance, chacune testée avec CI ver
 | [**nol-prompt**](https://github.com/Noliae-France/nol-prompt) | Templates de prompts typés (variables, versions, cache) |
 | [**nol-embedding**](https://github.com/Noliae-France/nol-embedding) | Embeddings : cosinus, normalisation, distances |
 | [**nol-vector**](https://github.com/Noliae-France/nol-vector) | Index vectoriel local, recherche des plus proches voisins |
+
+### 💶 Finance & comptabilité
+
+| Paquet | Rôle |
+|---|---|
+| [**nol-money**](https://github.com/Noliae-France/nol-money) | Montants exacts (unités mineures), devises ISO 4217, arrondis contrôlés |
+| [**nol-tax**](https://github.com/Noliae-France/nol-tax) | TVA et taxes : HT/TTC exact, taux versionnés |
+| [**nol-chart**](https://github.com/Noliae-France/nol-chart) | Plans comptables (PCG français) |
+| [**nol-ledger**](https://github.com/Noliae-France/nol-ledger) | Comptabilité en partie double (écritures équilibrées, soldes) |
 
 ### 🛠️ Utilitaires
 
