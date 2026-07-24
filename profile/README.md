@@ -8,7 +8,7 @@ Du langage à l'infrastructure : un écosystème cohérent, MIT, testé, sans bo
 
 <br/>
 
-![Paquets](https://img.shields.io/badge/paquets-44-FF4D2E?style=flat-square)
+![Paquets](https://img.shields.io/badge/paquets-45-FF4D2E?style=flat-square)
 ![Langage](https://img.shields.io/badge/langage-Nolc-111?style=flat-square)
 ![Licence](https://img.shields.io/badge/licence-MIT-green?style=flat-square)
 ![CI](https://img.shields.io/badge/CI-verte-2ea44f?style=flat-square)
@@ -113,6 +113,7 @@ Des bibliothèques **pures Nolc**, sans dépendance, chacune testée avec CI ver
 |---|---|
 | [**nol-state-machine**](https://github.com/Noliae-France/nol-state-machine) | Machines à états typées |
 | [**nol-idempotency**](https://github.com/Noliae-France/nol-idempotency) | Clés d'idempotence pour API |
+| [**nol-test**](https://github.com/Noliae-France/nol-test) | Framework de test : assertions riches, suites, rapports |
 
 ### 🛠️ Utilitaires
 
