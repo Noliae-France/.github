@@ -8,7 +8,7 @@ Du langage à l'infrastructure : un écosystème cohérent, MIT, testé, sans bo
 
 <br/>
 
-![Paquets](https://img.shields.io/badge/paquets-39-FF4D2E?style=flat-square)
+![Paquets](https://img.shields.io/badge/paquets-44-FF4D2E?style=flat-square)
 ![Langage](https://img.shields.io/badge/langage-Nolc-111?style=flat-square)
 ![Licence](https://img.shields.io/badge/licence-MIT-green?style=flat-square)
 ![CI](https://img.shields.io/badge/CI-verte-2ea44f?style=flat-square)
@@ -98,6 +98,21 @@ Des bibliothèques **pures Nolc**, sans dépendance, chacune testée avec CI ver
 | [**nol-expense**](https://github.com/Noliae-France/nol-expense) | Notes de frais et justificatifs |
 | [**nol-payroll-core**](https://github.com/Noliae-France/nol-payroll-core) | Écritures comptables de paie |
 | [**nol-audit**](https://github.com/Noliae-France/nol-audit) | Historique immuable (chaîne de hachage) |
+
+### 🔎 Recherche & texte
+
+| Paquet | Rôle |
+|---|---|
+| [**nol-search**](https://github.com/Noliae-France/nol-search) | Index plein texte local (index inversé, recherche ET) |
+| [**nol-spell**](https://github.com/Noliae-France/nol-spell) | Correction orthographique (Levenshtein, suggestions) |
+| [**nol-i18n**](https://github.com/Noliae-France/nol-i18n) | Traductions et règles de pluriel |
+
+### 🧱 Fiabilité & architecture
+
+| Paquet | Rôle |
+|---|---|
+| [**nol-state-machine**](https://github.com/Noliae-France/nol-state-machine) | Machines à états typées |
+| [**nol-idempotency**](https://github.com/Noliae-France/nol-idempotency) | Clés d'idempotence pour API |
 
 ### 🛠️ Utilitaires
 
