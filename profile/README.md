@@ -8,7 +8,7 @@ Du langage à l'infrastructure : un écosystème cohérent, MIT, testé, sans bo
 
 <br/>
 
-![Paquets](https://img.shields.io/badge/paquets-18-FF4D2E?style=flat-square)
+![Paquets](https://img.shields.io/badge/paquets-21-FF4D2E?style=flat-square)
 ![Langage](https://img.shields.io/badge/langage-Nolc-111?style=flat-square)
 ![Licence](https://img.shields.io/badge/licence-MIT-green?style=flat-square)
 ![CI](https://img.shields.io/badge/CI-verte-2ea44f?style=flat-square)
@@ -67,6 +67,14 @@ Des bibliothèques **pures Nolc**, sans dépendance, chacune testée avec CI ver
 | [**nol-html**](https://github.com/Noliae-France/nol-html) | Échappement HTML sûr (anti‑XSS) |
 | [**nol-uuid**](https://github.com/Noliae-France/nol-uuid) | UUID v4 (aléatoire cryptographique) |
 | [**nol-random**](https://github.com/Noliae-France/nol-random) | Aléa crypto : octets, entier borné, hex, choix |
+
+### 🤖 IA & LLM
+
+| Paquet | Rôle |
+|---|---|
+| [**nol-ai**](https://github.com/Noliae-France/nol-ai) | API IA agnostique du fournisseur (messages, requêtes, JSON) |
+| [**nol-llama**](https://github.com/Noliae-France/nol-llama) | Interface vers llama.cpp (modèles GGUF locaux, CPU/GPU) |
+| [**nol-prompt**](https://github.com/Noliae-France/nol-prompt) | Templates de prompts typés (variables, versions, cache) |
 
 ### 🛠️ Utilitaires
 
