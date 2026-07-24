@@ -8,7 +8,7 @@ Du langage à l'infrastructure : un écosystème cohérent, MIT, testé, sans bo
 
 <br/>
 
-![Paquets](https://img.shields.io/badge/paquets-29-FF4D2E?style=flat-square)
+![Paquets](https://img.shields.io/badge/paquets-39-FF4D2E?style=flat-square)
 ![Langage](https://img.shields.io/badge/langage-Nolc-111?style=flat-square)
 ![Licence](https://img.shields.io/badge/licence-MIT-green?style=flat-square)
 ![CI](https://img.shields.io/badge/CI-verte-2ea44f?style=flat-square)
@@ -84,10 +84,20 @@ Des bibliothèques **pures Nolc**, sans dépendance, chacune testée avec CI ver
 
 | Paquet | Rôle |
 |---|---|
-| [**nol-money**](https://github.com/Noliae-France/nol-money) | Montants exacts (unités mineures), devises ISO 4217, arrondis contrôlés |
-| [**nol-tax**](https://github.com/Noliae-France/nol-tax) | TVA et taxes : HT/TTC exact, taux versionnés |
+| [**nol-money**](https://github.com/Noliae-France/nol-money) | Montants exacts (unités mineures), devises ISO 4217 |
+| [**nol-ledger**](https://github.com/Noliae-France/nol-ledger) | Comptabilité en partie double |
+| [**nol-accounting**](https://github.com/Noliae-France/nol-accounting) | Journaux, exercices, clôtures et résultat |
 | [**nol-chart**](https://github.com/Noliae-France/nol-chart) | Plans comptables (PCG français) |
-| [**nol-ledger**](https://github.com/Noliae-France/nol-ledger) | Comptabilité en partie double (écritures équilibrées, soldes) |
+| [**nol-invoice**](https://github.com/Noliae-France/nol-invoice) | Devis, factures, avoirs et échéances |
+| [**nol-tax**](https://github.com/Noliae-France/nol-tax) | TVA, taxes et règles versionnées |
+| [**nol-reconcile**](https://github.com/Noliae-France/nol-reconcile) | Rapprochement bancaire |
+| [**nol-payment**](https://github.com/Noliae-France/nol-payment) | Paiements, remboursements, statuts, idempotence |
+| [**nol-subscription**](https://github.com/Noliae-France/nol-subscription) | Abonnements et facturation périodique |
+| [**nol-treasury**](https://github.com/Noliae-France/nol-treasury) | Trésorerie, positions et prévisions |
+| [**nol-assets**](https://github.com/Noliae-France/nol-assets) | Immobilisations et amortissements |
+| [**nol-expense**](https://github.com/Noliae-France/nol-expense) | Notes de frais et justificatifs |
+| [**nol-payroll-core**](https://github.com/Noliae-France/nol-payroll-core) | Écritures comptables de paie |
+| [**nol-audit**](https://github.com/Noliae-France/nol-audit) | Historique immuable (chaîne de hachage) |
 
 ### 🛠️ Utilitaires
 
