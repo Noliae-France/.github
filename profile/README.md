@@ -46,7 +46,7 @@ Des bibliothèques **pures Nolc**, sans dépendance, chacune testée avec CI ver
 
 | Paquet | Rôle |
 |---|---|
-| [**nol-http**](https://github.com/Noliae-France/nol-http) | Briques serveur HTTP : routage, parsing requête, en‑têtes |
+| [**nol-http**](https://github.com/Noliae-France/nol-http) | Serveur HTTP/1.1 concurrent : streaming, timeouts, limites, arrêt gracieux |
 | [**nol-serde**](https://github.com/Noliae-France/nol-serde) | Sérialisation JSON correcte (échappement, composition) |
 | [**nol-validation**](https://github.com/Noliae-France/nol-validation) | Validation déclarative, erreurs structurées |
 | [**nol-auth**](https://github.com/Noliae-France/nol-auth) | Authentification : Bearer, RBAC (sessions/JWT à venir) |
