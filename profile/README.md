@@ -8,7 +8,7 @@ Du langage à l'infrastructure : un écosystème cohérent, MIT, testé, sans bo
 
 <br/>
 
-![Paquets](https://img.shields.io/badge/paquets-21-FF4D2E?style=flat-square)
+![Paquets](https://img.shields.io/badge/paquets-25-FF4D2E?style=flat-square)
 ![Langage](https://img.shields.io/badge/langage-Nolc-111?style=flat-square)
 ![Licence](https://img.shields.io/badge/licence-MIT-green?style=flat-square)
 ![CI](https://img.shields.io/badge/CI-verte-2ea44f?style=flat-square)
@@ -51,6 +51,8 @@ Des bibliothèques **pures Nolc**, sans dépendance, chacune testée avec CI ver
 | [**nol-validation**](https://github.com/Noliae-France/nol-validation) | Validation déclarative, erreurs structurées |
 | [**nol-auth**](https://github.com/Noliae-France/nol-auth) | Authentification : Bearer, RBAC (sessions/JWT à venir) |
 | [**nol-url**](https://github.com/Noliae-France/nol-url) | Analyse d'URL (schéma, hôte, port, chemin, requête) |
+| [**nol-cookie**](https://github.com/Noliae-France/nol-cookie) | Cookies : parsing, SameSite, Secure, HttpOnly |
+| [**nol-mime**](https://github.com/Noliae-France/nol-mime) | Types MIME par extension de fichier |
 
 ### 🗃️ Données & stockage
 
@@ -75,6 +77,8 @@ Des bibliothèques **pures Nolc**, sans dépendance, chacune testée avec CI ver
 | [**nol-ai**](https://github.com/Noliae-France/nol-ai) | API IA agnostique du fournisseur (messages, requêtes, JSON) |
 | [**nol-llama**](https://github.com/Noliae-France/nol-llama) | Interface vers llama.cpp (modèles GGUF locaux, CPU/GPU) |
 | [**nol-prompt**](https://github.com/Noliae-France/nol-prompt) | Templates de prompts typés (variables, versions, cache) |
+| [**nol-embedding**](https://github.com/Noliae-France/nol-embedding) | Embeddings : cosinus, normalisation, distances |
+| [**nol-vector**](https://github.com/Noliae-France/nol-vector) | Index vectoriel local, recherche des plus proches voisins |
 
 ### 🛠️ Utilitaires
 
