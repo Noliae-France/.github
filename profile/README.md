@@ -1,67 +1,90 @@
 <div align="center">
 
-# Noliae-France
+# 🇫🇷 Noliae
 
-### Des logiciels libres, souverains et respectueux de la vie privée.
+### Le numérique libre, souverain et respectueux de la vie privée.
 
-**Organisation française à but non lucratif**, Noliae-France développe des outils numériques ouverts au service de nos concitoyennes et concitoyens, particulièrement de celles et ceux qui souhaitent garder le contrôle de leur vie privée.
+**Organisation française à but non lucratif**, Noliae construit des outils ouverts pour les citoyennes, citoyens, associations et acteurs publics qui refusent que leur vie numérique devienne un produit.
 
-[Nos projets](https://github.com/orgs/Noliae-France/repositories) · [Nolc](https://github.com/Noliae-France/Nolc) · [NolCore](https://github.com/Noliae-France/NolCore) · [Documentation](https://wiki.noliae.com)
+<br>
 
-![Logiciels libres](https://img.shields.io/badge/logiciels-libres-FF4D2E?style=flat-square)
-![France](https://img.shields.io/badge/conçu_en-France-111111?style=flat-square)
-![Vie privée](https://img.shields.io/badge/vie_privée-par_défaut-2ea44f?style=flat-square)
+[🌐 Découvrir nos projets](https://github.com/orgs/Noliae-France/repositories) &nbsp;·&nbsp; [🧩 Le langage Nolc](https://github.com/Noliae-France/Nolc) &nbsp;·&nbsp; [🏗️ NolCore](https://github.com/Noliae-France/NolCore) &nbsp;·&nbsp; [📚 Documentation](https://wiki.noliae.com)
+
+<br>
+
+![🇫🇷 Conçu en France](https://img.shields.io/badge/🇫🇷-conçu_en_France-0055A4?style=for-the-badge)
+![🔓 Logiciels libres](https://img.shields.io/badge/🔓-logiciels_libres-FF4D2E?style=for-the-badge)
+![🛡️ Vie privée](https://img.shields.io/badge/🛡️-vie_privée_par_défaut-2EA44F?style=for-the-badge)
 
 </div>
 
 ---
 
-## Notre mission
+## ✨ Notre raison d’être
 
-Nous pensons que les outils numériques essentiels ne devraient pas imposer la surveillance, l’enfermement propriétaire ou l’exploitation des données personnelles. Noliae-France conçoit et publie des logiciels dont le code peut être lu, vérifié, amélioré et réutilisé.
+Le numérique essentiel doit rester **compréhensible, vérifiable et maîtrisable**. Nous créons des logiciels qui n’exigent ni surveillance généralisée, ni enfermement propriétaire, ni revente de données personnelles.
 
-Notre démarche est non lucrative : elle vise l’intérêt général, l’autonomie numérique et l’accès à des services compréhensibles pour toutes et tous.
+Noliae agit sans but lucratif pour l’**intérêt général**, l’autonomie numérique et la protection de la vie privée. Notre code est publié pour être lu, audité, amélioré et réutilisé.
 
-## Nos engagements
+> « Vos données, vos choix, vos outils. »
 
-- **Vie privée par défaut** — minimisation des données, protections techniques et choix explicites.
-- **Logiciels ouverts** — le code source de nos applications est public afin que chacun puisse l’auditer.
-- **Souveraineté et interopérabilité** — des formats ouverts, des déploiements maîtrisables et aucune dépendance inutile à une plateforme.
-- **Sécurité concrète** — chiffrement, sessions sécurisées, validation des entrées et intégration continue.
-- **Accessibilité** — une expérience lisible, rapide et utile, sans manipulation ni publicité invasive.
+## 🛡️ Nos engagements
 
-## Les projets Noliae
-
-| Projet | Rôle |
+| Engagement | Ce que cela signifie |
 |---|---|
-| [Nolc](https://github.com/Noliae-France/Nolc) | Langage compilé en C11, conçu pour produire des binaires simples et portables. |
-| [NolCore](https://github.com/Noliae-France/NolCore) | Base applicative ouverte : API, utilisateurs, permissions, PostgreSQL, recherche et IA. |
-| [Noliae Search](https://github.com/Noliae-France/Noliae-Search) | Interface de recherche reliée au Core. |
-| [Noliae IA](https://github.com/Noliae-France/Noliae-IA) | Interface conversationnelle multi-modèles, pilotée par les permissions du Core. |
-| [Noliae Account](https://github.com/Noliae-France/Noliae-Account) | Gestion du compte, des sessions et de la sécurité. |
+| 🔒 **Vie privée par défaut** | Collecter le minimum, protéger le maximum, laisser des choix réels. |
+| 🔍 **Code ouvert** | Les applications et fondations techniques sont publiées pour être auditées. |
+| 🇫🇷 **Souveraineté numérique** | Des services déployables, des formats ouverts et des dépendances maîtrisées. |
+| 🧱 **Sécurité concrète** | Sessions protégées, validation des entrées, chiffrement et CI/CD. |
+| ♿ **Accessible et utile** | Des interfaces lisibles, rapides, sans publicité invasive ni manipulation. |
 
-## Nolc et l’écosystème `nol-*`
+## 🚀 Nos projets phares
 
-Nolc compile vers du C11 puis un binaire natif. Le projet privilégie les dépendances réduites, la mémoire par régions, une documentation en français et des outils auditables.
+### 🏗️ NolCore — le socle ouvert
+
+[**NolCore**](https://github.com/Noliae-France/NolCore) est la fondation de nos services : une API en Nolc qui rassemble utilisateurs, authentification, permissions, PostgreSQL, recherche, crawler et agrégation IA. Il est conçu pour pouvoir être déployé, étudié et adapté par toute organisation.
+
+### 🧩 Nolc — le langage de l’écosystème
+
+[**Nolc**](https://github.com/Noliae-France/Nolc) compile vers du C11 puis des binaires natifs. Il privilégie la simplicité, les dépendances réduites, la mémoire par régions et une documentation accessible en français.
 
 ```bash
 curl -fsSL https://noliae-nolc.s3.gra.io.cloud.ovh.net/nolc-latest-linux-x86_64.tar.gz | tar xz
 sudo cp nolc-*/nolc /usr/local/bin/
 ```
 
-Retrouvez les bibliothèques web, sécurité, données, recherche et IA dans les [dépôts de l’organisation](https://github.com/orgs/Noliae-France/repositories).
+### 🌐 Des services pensés pour les personnes
 
-## Participer
+| Projet | Pour quoi faire ? |
+|---|---|
+| [🔎 Noliae Search](https://github.com/Noliae-France/Noliae-Search) | Retrouver l’essentiel sans bruit ni profilage publicitaire. |
+| [🤖 Noliae IA](https://github.com/Noliae-France/Noliae-IA) | Dialoguer avec plusieurs modèles, avec les permissions du Core. |
+| [👤 Noliae Account](https://github.com/Noliae-France/Noliae-Account) | Gérer son compte, ses sessions et sa sécurité. |
+| [📦 Écosystème `nol-*`](https://github.com/orgs/Noliae-France/repositories) | Bibliothèques libres pour le web, la sécurité, les données et l’IA. |
 
-Les contributions, retours d’expérience, audits et propositions sont les bienvenus. Avant toute contribution, consultez le README et les documents de sécurité du dépôt concerné.
+## 🤝 Soutenir Noliae
 
-Si vous utilisez un projet Noliae, signalez les problèmes de manière responsable et évitez de publier des informations sensibles dans une issue publique.
+Un numérique libre et respectueux a besoin de temps, d’infrastructure et de personnes engagées. Vous pouvez nous aider à faire grandir un écosystème français indépendant.
+
+- 💶 **Donateurs et mécènes** — financez des briques ouvertes, l’hébergement, les audits et la documentation.
+- 🏛️ **Associations, collectivités et partenaires** — construisons ensemble des services numériques utiles et souverains.
+- 🧠 **Contributeurs et contributrices** — code, design, sécurité, documentation, tests et retours d’usage sont précieux.
+- 📣 **Relais** — parlez des projets, testez-les et partagez vos besoins.
+
+➡️ **Vous souhaitez soutenir, financer ou co-construire un projet ?** [Contactez l’organisation via GitHub](https://github.com/Noliae-France/.github/issues/new).
+
+## 🌱 Participer
+
+Chaque dépôt contient son README, ses règles de contribution et ses informations de sécurité. Les issues, audits responsables, retours terrain et propositions d’amélioration sont bienvenus.
+
+Merci de ne jamais publier de données personnelles, identifiants ou vulnérabilités exploitables dans une issue publique.
 
 ---
 
 <div align="center">
 
-Fait en France, pour des services numériques plus respectueux.
-Code ouvert · Contributions bienvenues · Vie privée non négociable
+### 🇫🇷 Fait en France, au service de l’intérêt général.
+
+**Code ouvert · Vie privée non négociable · Contributions bienvenues**
 
 </div>
